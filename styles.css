@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    transition: all 0.3s ease;
+}
+
+h2 {
+    color: #444;
+}
+
+.dropdowns select {
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+    background: #ffe5ec;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#start {
+    background: #ff758f;
+    color: white;
+}
+
+#pause {
+    background: #ffb3c1;
+    color: white;
+}
+
+#reset {
+    background: #c1e1c1;
+    color: black;
+}
+
+.countdown {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #444;
+}
+
+.countdown span {
+    display: inline-block;
+    min-width: 50px;
+    background: #ffe5ec;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
